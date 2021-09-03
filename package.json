@@ -1,0 +1,67 @@
+{
+  "name": "Solwed",
+  "version": "1.5.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@project-serum/anchor": "^0.13.2",
+    "@solana/wallet-adapter-base": "^0.5.0",
+    "@solana/wallet-adapter-material-ui": "^0.8.0",
+    "@solana/wallet-adapter-react": "^0.8.0",
+    "@solana/wallet-adapter-wallets": "^0.7.0",
+    "@solana/web3.js": "^1.24.1",
+    "await-timeout": "^1.1.1",
+    "axios": "^0.21.1",
+    "gulp": "4.0.2",
+    "gulp-append-prepend": "1.0.9",
+    "i": "^0.3.6",
+    "moment": "2.29.1",
+    "node-sass": "6.0.0",
+    "nouislider": "15.1.0",
+    "npm": "^7.21.1",
+    "react": "^17.0.2",
+    "react-bootstrap-switch": "15.5.3",
+    "react-component-export-image": "^1.0.6",
+    "react-datetime": "3.0.4",
+    "react-dom": "17.0.2",
+    "react-loading-overlay": "^1.0.1",
+    "react-redux": "^7.2.4",
+    "react-router": "5.2.0",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "4.0.3",
+    "reactstrap": "8.9.0",
+    "redux": "^4.1.1",
+    "redux-form": "^8.3.7",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && gulp licenses",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "compile-sass": "node-sass src/assets/scss/now-ui-kit.scss src/assets/css/now-ui-kit.css",
+    "minify-sass": "node-sass src/assets/scss/now-ui-kit.scss src/assets/css/now-ui-kit.min.css --output-style compressed",
+    "map-sass": "node-sass src/assets/scss/now-ui-kit.scss src/assets/css/now-ui-kit.css --source-map true"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "optionalDependencies": {
+    "@babel/core": "7.14.3",
+    "typescript": "4.2.4"
+  }
+}
