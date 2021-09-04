@@ -1,6 +1,23 @@
 # sollov_app
-An application to interact with sol_wed program on solana blockchin 
+An application to interact with sol_wed program on solana blockchain 
 
+# Demo
+[DEMO VIDEO](https://www.youtube.com/watch?v=8HhKorBVYdM)
+
+## Installation
+
+Install the dependencies in package.json using 
+```
+yarn install
+```
+Build the program`
+```
+yarn build
+```
+Run locally
+ ```
+ yarn start
+ ```
 
 ## Application
 Program is deployed on devnet , PROGRAM_ID : `FCyBRCbnCKee7NLBTn2mD4NoXJD2wmxeCMMEwbA358WL`
