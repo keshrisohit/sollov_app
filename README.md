@@ -1,6 +1,6 @@
 # sollov_app
 An application to interact with sol_wed program on solana blockchain 
-[SOLOV_APP] (http://solove.s3-website.ap-south-1.amazonaws.com/)
+[SOLOV_APP](http://solove.s3-website.ap-south-1.amazonaws.com/)
 
 # Demo
 [DEMO VIDEO](https://www.youtube.com/watch?v=8HhKorBVYdM)
