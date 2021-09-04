@@ -2,6 +2,9 @@
 An application to interact with sol_wed program on solana blockchain 
 [SOLOVE_APP](http://solove.s3-website.ap-south-1.amazonaws.com/)
 
+## Supprted wallet 
+Phantom
+
 # Demo
 [DEMO VIDEO](https://www.youtube.com/watch?v=8HhKorBVYdM)
 
