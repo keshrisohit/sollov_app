@@ -1,16 +1,10 @@
-import * as solanaWeb3 from '@solana/web3.js';
-import { Connection, SystemProgram, Transaction, clusterApiUrl } from '@solana/web3.js';
-import * as anchor from '@project-serum/anchor';
 import LoginPage from '../views/examples/LoginPage';
 
 import React,{ Component } from "react";
 import { connect } from 'react-redux';
-import Wallet from 'components/wallet';
 import {connectedAction }from '../actions'
 import CreateEditProfile from './CreateEditProfile';
 import WeddingDashBoard from './WeddingDashBoard';
-import DarkFooter from 'components/Footers/DarkFooter';
-import ExamplesNavbar from 'components/Navbars/ExamplesNavbar';
 import LoadingOverlay from 'react-loading-overlay';
 
 

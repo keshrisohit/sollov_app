@@ -1,15 +1,11 @@
-import * as solanaWeb3 from '@solana/web3.js';
-import { Connection, SystemProgram, Transaction, clusterApiUrl } from '@solana/web3.js';
-import * as anchor from '@project-serum/anchor';
-import LoginPage from '../views/examples/LoginPage';
+
 
 import React,{ Component } from "react";
 import { connect } from 'react-redux';
-import Wallet from 'components/wallet';
+
 import { createProfileAction } from 'actions';
 import LoginForm from 'components/LoginForm';
 import LandingPageHeader from 'components/Headers/LandingPageHeader';
-import { DirectionsBike } from '@material-ui/icons';
 import { UncontrolledAlert } from 'reactstrap';
 import TransparentFooter from 'components/Footers/TransparentFooter';
 import ExamplesNavbar from 'components/Navbars/ExamplesNavbar';

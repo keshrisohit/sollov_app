@@ -20,7 +20,7 @@ import {
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import TransparentFooter from "components/Footers/TransparentFooter.js";
 import Wallet  from "components/wallet";
-import IndexNavbar from "components/Navbars/IndexNavbar";
+
 
 function LoginPage() {
   const [firstFocus, setFirstFocus] = React.useState(false);
@@ -61,10 +61,10 @@ function LoginPage() {
                 {/* </Card><Form action="" className="form" method=""> */}
                   <CardHeader className="text-center">
                     <div className="logo-container">
-                      <img
+                      {/* <img
                         alt="..."
                         src={require("assets/img/logo1.png").default}
-                      ></img>
+                      ></img> */}
                       
                     </div>
                     <div class="card-header">

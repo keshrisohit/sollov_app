@@ -71,10 +71,10 @@ function LandingPage() {
                   </div>
                   <div
                     className="image-container"
-                    style={{
-                      backgroundImage:
-                        "url(" + require("assets/img/bg3.jpg").default + ")",
-                    }}
+                    // style={{
+                    //   backgroundImage:
+                    //     "url(" + require("assets/img/bg3.jpg").default + ")",
+                    // }}
                   ></div>
                 </Col>
                 <Col md="5">
