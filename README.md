@@ -20,7 +20,7 @@ You can event trade - example if wedding invitation or moment  NFT belongs to ce
 Phantom
 
 # Demo
-[DEMO VIDEO](https://youtu.be/pBQuEkMW2D4)
+[DEMO VIDEO](https://youtu.be/lODFxNFv5N4)
 
 ## Installation
 
